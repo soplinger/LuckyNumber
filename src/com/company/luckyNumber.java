@@ -4,21 +4,13 @@ package com.company;
  * Created by so367 on 10/9/18.
  */
 public class luckyNumber {
+    public double randNum;
 
-    String name;
-    double number;
-    String userName;
+    public double perfectRandom(double L){
+        randNum = (int)(Math.random()*100);
+        L = Math.pow(randNum, 2);
+        return L;
 
-    public luckyNumber(String name)
-    {
-        userName = name;
     }
-
-    public double perfectRandom
-    {
-        number = Math.random()(int);
-    }
-
 }
-
 
